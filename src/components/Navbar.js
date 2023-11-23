@@ -13,20 +13,8 @@ const Navbar = () => {
   return (
     <div className="navbar w-full bg-base-200  top-0  mb-1">
       <div className="flex w-full items-center justify-start ">
-        {/* <NavLink
-        to="/"
-        className="text-1xl min-w-max font-regular text-white  pt-3px pb-3px"
-      >
-        HOME
-      </NavLink> */}
         {user ? (
           <>
-            {/* <NavLink
-            to="/myProfile"
-            className="text-1xl min-w-max font-regular text-white  pt-3px pb-3px"
-          >
-            MY PROFILE
-          </NavLink> */}
             <NavLink to={"/"}>
               <img
                 src={require("../assest/Screen Shot 2023-11-24 at 1.14.41 AM.png")}
@@ -71,7 +59,6 @@ const Navbar = () => {
         ) : (
           <div className="flex items-center justify-end w-full mr-5 gap-2">
             <div className=" flex justify-start items-start w-full ">
-              {/* <h1> PINCH OF YUM</h1> */}
               <img
                 src={require("../assest/Screen Shot 2023-11-24 at 1.14.41 AM.png")}
                 style={{

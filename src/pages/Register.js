@@ -49,15 +49,7 @@ const Register = () => {
           type="file"
           className="w-[80%] h-[50px] rounded-lg px-5 border-[2px] border-black py-1"
         />
-        {/* {isloading ? (
-          <button
-            disabled
-            onClick={mutate}
-            className="border-[2px] border-white hover:bg-slate-500"
-          >
-            loading ..
-          </button>
-        ) : ( */}
+
         <button
           onClick={() => mutate()}
           className=" rounded-md border-[2px]  px-3 py-1 border-black hover:bg-pink-600 font-bold"
