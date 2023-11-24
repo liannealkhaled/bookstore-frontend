@@ -11,7 +11,7 @@ const Navbar = () => {
     logout();
   };
   return (
-    <div className="navbar w-full bg-base-200  top-0  mb-1">
+    <div className="navbar w-full top-0  mb-1">
       <div className="flex w-full items-center justify-start ">
         {user ? (
           <>

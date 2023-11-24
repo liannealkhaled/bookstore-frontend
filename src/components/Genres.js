@@ -12,12 +12,12 @@ const Genres = () => {
   });
   if (isLoading)
     return <span className="loading loading-dots loading-md"></span>;
-  const genreList = genres.map((genre) => (
+  const genreList = genres?.map((genre) => (
     <GenreCard genre={genre} key={genre.name} />
   ));
 
   return (
-    <div className="flex justify-center items-center  bg-slate-600  overflow-scroll mr-2 ml-2">
+    <div className="flex justify-center items-center  bg-gray-600  overflow-scroll ">
       {genreList}
     </div>
   );
