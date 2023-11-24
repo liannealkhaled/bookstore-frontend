@@ -25,10 +25,10 @@ const Navbar = () => {
                 }}
               />
             </NavLink>
-            <div className="flex justify-end items-end w-full mr-5 gap-2">
+            <div className="flex justify-end items-end w-full mr-5 ">
               <NavLink
                 to="/mylibrary"
-                className=" rounded-md px-3 py-1 border-white font-bold bg-gray-700 text-white"
+                className=" rounded-md px-3 py-1 border-white font-bold bg-gray-700 text-white flex justify-center items-center"
               >
                 MY LIBRARY
               </NavLink>
