@@ -17,7 +17,7 @@ const Genres = () => {
   ));
 
   return (
-    <div className="flex justify-center items-center  bg-gray-600  overflow-scroll ">
+    <div className="flex justify-center items-center  bg-gray-300  overflow-scroll ">
       {genreList}
     </div>
   );

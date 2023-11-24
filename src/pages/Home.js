@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Navbar />
       <div className=" flex justify-center items-center w-full h-32">
-        <div className=" flex flex-row bg-gray-600 w-[900px] h-20 justify-center items-center rounded-xl">
+        <div className=" flex flex-row bg-gray-300 w-[900px] h-20 justify-center items-center rounded-xl">
           <div className=" text-white text-[25px] font-semibold ">
             FIND SOMETHING INTRESTING ?
           </div>
