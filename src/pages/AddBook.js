@@ -92,3 +92,10 @@
 // };
 
 // export default AddBook;
+import React from "react";
+
+const AddBook = () => {
+  return <div>HELLO</div>;
+};
+
+export default AddBook;

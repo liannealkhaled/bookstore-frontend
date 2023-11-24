@@ -5,7 +5,8 @@ const getAllGenre = async () => {
   return res.data;
 };
 
-// const addGenre = async ()=>{
-
-// }
-export { getAllGenre };
+const addGenre = async () => {
+  const res = await instance.post("/addGenre");
+  return res.data;
+};
+export { getAllGenre, addGenre };

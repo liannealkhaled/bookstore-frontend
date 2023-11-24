@@ -9,6 +9,7 @@ import UserContext from "./context/UserContext";
 import Login from "./components/Login";
 import MyLibrary from "./pages/MyLibrary";
 import AddBook from "./pages/AddBook";
+import AddGenre from "./pages/AddGenre";
 
 function App() {
   const [user, setUser] = useState({});
@@ -24,6 +25,7 @@ function App() {
           <Route path="/login" Component={Login} />
           <Route path="/mylibrary" Component={MyLibrary} />
           <Route path="/addbook" Component={AddBook} />
+          <Route path="/addgenre" Component={AddGenre} />
         </Routes>
       </div>
     </UserContext.Provider>
