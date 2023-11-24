@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import UserContext from "./context/UserContext";
 import Login from "./components/Login";
 import MyLibrary from "./pages/MyLibrary";
+import AddBook from "./pages/AddBook";
 
 function App() {
   const [user, setUser] = useState({});
@@ -22,6 +23,7 @@ function App() {
           <Route path="/register" Component={Register} />
           <Route path="/login" Component={Login} />
           <Route path="/mylibrary" Component={MyLibrary} />
+          <Route path="/addbook" Component={AddBook} />
         </Routes>
       </div>
     </UserContext.Provider>

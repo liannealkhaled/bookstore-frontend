@@ -15,7 +15,7 @@ const MyLibrary = () => {
             placeholder="Search "
             className=" bg-gray-300 input text-black w-24 md:w-auto ml-5  font-bold"
           />
-          <Link to={"/"}>
+          <Link to={"/addbook"}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"

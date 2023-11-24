@@ -5,4 +5,5 @@ const getAllBooks = async () => {
   return res.data;
 };
 
-export { getAllBooks };
+const addBook = async () => {};
+export { getAllBooks, addBook };
