@@ -2,18 +2,17 @@ import React from "react";
 
 const BookCard = (book) => {
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
-      <figure className="px-10 pt-10">
-        <img
-          src={require("../assest/21142729.jpg")}
-          className="rounded-xl border-black"
-        />
+    <div className="card w-80 bg-base-100 shadow-xl image-full">
+      <figure>
+        <img src={require("../assest/21142729.jpg")} />
       </figure>
-      <div className="card-body items-center text-center">
-        <h2 className="card-title">{book.book.title}</h2>
+      <div className="card-body flex justify-end items-center">
+        <h2 className="card-title flex justify-center items-center">
+          {book.book.title}
+        </h2>
 
-        <div className="card-actions">
-          <button className="btn btn-primary">VIEW</button>
+        <div className="card-actions justify-end">
+          <button className="btn btn-primary">VIEW DETAILS</button>
         </div>
       </div>
     </div>

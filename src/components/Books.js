@@ -13,7 +13,7 @@ const Books = () => {
   const bookList = books?.map((book) => (
     <BookCard book={book} key={book.name} />
   ));
-  return <div>{bookList}</div>;
+  return <div className="p-5">{bookList}</div>;
 };
 
 export default Books;
