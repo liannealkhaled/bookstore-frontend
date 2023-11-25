@@ -5,5 +5,12 @@ const getAllBooks = async () => {
   return res.data;
 };
 
-const addBook = async () => {};
+const addBook = async (book) => {
+  const formData = new FormData();
+  for (let key in book) {
+    formData.append(key, book[key]);
+  }
+  const res = await instance.post("/book", formData);
+  return res.data;
+};
 export { getAllBooks, addBook };
