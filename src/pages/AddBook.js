@@ -40,14 +40,14 @@ const AddBook = () => {
   return (
     <div className=" h-screen w-screen flex justify-center items-center bg-base-100">
       <div className=" gap-3  w-[50%] h-[80%] flex flex-col justify-center items-center bg-base-200 rounded-md ">
-        <h1 className="  text-[35px] font-bold  text-amber-950">
-          LOOKS DELICIOUS{" "}
+        <h1 className="  text-[35px] font-bold  text-gray-600">
+          BOOKS ARE PORTABLR MAGIC{" "}
         </h1>
 
         <input
           name="name"
           onChange={handleChange}
-          placeholder="Recipe name"
+          placeholder="Book title"
           className="input input-bordered w-[500px] h-[50px] "
         />
 
@@ -62,18 +62,12 @@ const AddBook = () => {
           </option>
           {genreSelectOptions}
         </select>
-        <input
-          name="ingredients"
-          onChange={handleChange}
-          placeholder="Ingredients"
-          className="input input-bordered w-[500px] h-[50px] "
-        />
 
         <label className="flex flex-row gap-2">
           <textarea
-            name="instructions"
+            name="Descriptions"
             onChange={handleChange}
-            placeholder="Instructions"
+            placeholder="Descriptions"
             className="textarea textarea-bordered textarea-lg w-[500px] h-[100px]"
           ></textarea>
         </label>

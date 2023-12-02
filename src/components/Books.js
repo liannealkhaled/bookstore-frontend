@@ -13,7 +13,11 @@ const Books = () => {
   const bookList = books?.map((book) => (
     <BookCard book={book} key={book.name} />
   ));
-  return <div className="p-5">{bookList}</div>;
+  return (
+    <div className="p-5 flex flex-row flex-wrap gap-2 justify-center">
+      {bookList}
+    </div>
+  );
 };
 
 export default Books;
